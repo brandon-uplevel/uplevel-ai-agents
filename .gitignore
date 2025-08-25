@@ -69,3 +69,4 @@ dump.rdb
 # Temporary files
 *.tmp
 *.temp
+portal/frontend_temp/
