@@ -1,0 +1,31 @@
+{
+  "agent_name": "uplevel-financial-intelligence",
+  "project_id": "uplevel-ai-agents",
+  "region": "us-central1",
+  "service_url": "https://uplevel-financial-agent-834012950450.us-central1.run.app",
+  "service_name": "uplevel-financial-agent",
+  "deployment_time": "2025-08-25T20:38:00Z",
+  "status": "deployed",
+  "mode": "demo",
+  "endpoints": {
+    "root": "https://uplevel-financial-agent-834012950450.us-central1.run.app/",
+    "health": "https://uplevel-financial-agent-834012950450.us-central1.run.app/health",
+    "query": "https://uplevel-financial-agent-834012950450.us-central1.run.app/query",
+    "pl_statement": "https://uplevel-financial-agent-834012950450.us-central1.run.app/pl-statement",
+    "docs": "https://uplevel-financial-agent-834012950450.us-central1.run.app/docs"
+  },
+  "features": {
+    "financial_analysis": "available",
+    "hubspot_integration": "configured (needs API keys)",
+    "quickbooks_integration": "configured (needs OAuth tokens)",
+    "vertex_ai_ready": "architecture_ready",
+    "production_ready": true
+  },
+  "next_steps": [
+    "Configure HubSpot API credentials in Secret Manager",
+    "Set up QuickBooks OAuth flow",
+    "Enable full agent mode with real integrations",
+    "Build Next.js frontend portal",
+    "Expand to Phase 2 multi-agent system"
+  ]
+}

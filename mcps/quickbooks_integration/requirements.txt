@@ -1,0 +1,27 @@
+# QuickBooks MCP Integration Requirements
+
+# Core dependencies (already installed in main environment)
+python-quickbooks>=0.9.12
+intuit-oauth>=1.2.6
+mcp>=1.13.1
+pydantic>=2.11.0
+fastapi>=0.116.0
+uvicorn>=0.35.0
+
+# OAuth and HTTP dependencies
+requests>=2.32.0
+requests-oauthlib>=2.0.0
+
+# Google Cloud dependencies
+google-cloud-secret-manager>=2.24.0
+
+# Testing dependencies
+pytest>=8.0.0
+pytest-asyncio>=0.24.0
+pytest-mock>=3.14.0
+
+# Development dependencies
+black>=24.0.0
+isort>=5.13.0
+mypy>=1.11.0
+flake8>=7.0.0

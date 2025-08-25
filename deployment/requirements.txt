@@ -1,0 +1,18 @@
+# Core dependencies with flexible versions
+fastapi>=0.100.0
+uvicorn[standard]>=0.24.0
+pydantic>=2.5.0
+pydantic-settings>=2.0.0
+
+# Google Cloud dependencies
+google-cloud-aiplatform>=1.47.0
+google-cloud-secret-manager>=2.16.0
+google-adk>=1.12.0
+
+# HTTP and async dependencies
+httpx>=0.25.0
+aiohttp>=3.9.0
+requests>=2.31.0
+
+# Basic utilities (let google-adk handle python-dateutil)
+python-dotenv>=1.0.0

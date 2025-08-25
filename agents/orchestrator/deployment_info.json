@@ -1,0 +1,36 @@
+{
+  "agent_name": "uplevel-central-orchestrator",
+  "project_id": "uplevel-ai-agents",
+  "region": "us-central1", 
+  "service_url": "https://uplevel-orchestrator-834012950450.us-central1.run.app",
+  "service_name": "uplevel-orchestrator",
+  "repository": "uplevel-agents",
+  "deployment_time": "2025-08-25T22:12:55.807429Z",
+  "status": "deployed",
+  "endpoints": {
+    "health": "https://uplevel-orchestrator-834012950450.us-central1.run.app/health",
+    "query": "https://uplevel-orchestrator-834012950450.us-central1.run.app/query",
+    "agents_status": "https://uplevel-orchestrator-834012950450.us-central1.run.app/agents/status",
+    "docs": "https://uplevel-orchestrator-834012950450.us-central1.run.app/docs"
+  },
+  "agents": {
+    "financial_intelligence": {
+      "url": "https://uplevel-financial-agent-834012950450.us-central1.run.app",
+      "status": "healthy"
+    },
+    "sales_marketing": {
+      "url": "http://localhost:8003",
+      "status": "not_deployed"
+    }
+  },
+  "infrastructure": {
+    "redis_type": "local",
+    "environment": "production",
+    "scaling": {
+      "min_instances": 0,
+      "max_instances": 10,
+      "memory": "2Gi",
+      "cpu": "1000m"
+    }
+  }
+}

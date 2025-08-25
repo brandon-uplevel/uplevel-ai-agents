@@ -1,0 +1,71 @@
+# Dependencies
+node_modules/
+venv/
+uplevel-ai-env/
+
+# Environment variables
+.env
+.env.local
+.env.local.*
+.env.production
+
+# Next.js build output
+.next/
+out/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Logs
+*.log
+logs/
+
+# Docker
+.dockerignore
+
+# Redis data
+dump.rdb
+
+# Temporary files
+*.tmp
+*.temp
